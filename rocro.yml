@@ -1,12 +1,9 @@
 inspecode:
 
-  ##----------------------------------------------------------------
-  ##  net.sourceforge.pmd.lang.ast.TokenMgrError: Lexical error
-  ##    in file ./Source/swiftlint/Commands/RulesCommand.swift at line 7, column 0.
-  ##  Encountered: token recognition error at: '#er'
-  ##----------------------------------------------------------------
-  #cpd:
-  #  thresholds: { num-issues: 999 }
+  cpd:
+    options:
+      --skip-lexical-errors:
+    thresholds: { num-issues: 999 }
 
   grep:
     thresholds: { num-issues: 29 }
