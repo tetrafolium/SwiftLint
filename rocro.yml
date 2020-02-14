@@ -3,7 +3,7 @@ inspecode:
   cpd:
     options:
       --skip-lexical-errors:
-    thresholds: { num-issues: 999 }
+    thresholds: { num-issues: 19 }
 
   grep:
     thresholds: { num-issues: 29 }
@@ -22,4 +22,4 @@ inspecode:
 
   tailor:
     #config-file: .tailor.yml      # (auto-detect)
-    thresholds: { num-issues: 999 }
+    thresholds: { num-issues: 271 }
