@@ -1,25 +1,4 @@
 inspecode:
 
-  cpd:
-    options:
-      --skip-lexical-errors:
-    thresholds: { num-issues: 19 }
-
-  grep:
-    thresholds: { num-issues: 29 }
-
   jscpd:
-    thresholds: { num-issues: 0 }
-
-  misspell:
-    auto-fix: true
-    thresholds: { num-issues: 11 }
-
-  swiftlint:
-    #config-file: .swiftlint.yml   # (auto-detect)
-    auto-fix: true
-    thresholds: { num-issues: 0 }
-
-  tailor:
-    #config-file: .tailor.yml      # (auto-detect)
-    thresholds: { num-issues: 271 }
+    thresholds: { num-issues: 999 }
