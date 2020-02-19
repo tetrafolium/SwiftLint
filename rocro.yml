@@ -1,3 +1,5 @@
 inspecode:
 
-  cpd: default
+  cpd:
+    options:
+      --skip-lexical-errors:
