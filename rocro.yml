@@ -6,13 +6,13 @@ inspecode:
     thresholds: { num-issues: 19 }
 
   fossology:
-    thresholds: { num-issues: 999 }
+    thresholds: { num-issues: 1 }
 
   grep:
     thresholds: { num-issues: 29 }
 
   jscpd:
-    thresholds: { num-issues: 0 }
+    thresholds: { num-issues: 148 }
 
   misspell:
     auto-fix: true
