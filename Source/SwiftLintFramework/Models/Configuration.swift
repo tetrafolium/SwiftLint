@@ -34,7 +34,7 @@ public struct Configuration: Hashable {
     public private(set) var rootPath: String?
     /// The absolute path from where this configuration was loaded from, if any.
     public private(set) var configurationPath: String?
-    /// The location of the persisted cache to use whith this configuration.
+    /// The location of the persisted cache to use with this configuration.
     public let cachePath: String?
     /// Allow or disallow SwiftLint to exit successfully when passed only ignored or unlintable files
     public let allowZeroLintableFiles: Bool
@@ -81,7 +81,7 @@ public struct Configuration: Hashable {
     /// - parameter ruleList:               All rules that should be accessible to this configuration.
     /// - parameter configuredRules:        The rules with their own configurations already applied.
     /// - parameter swiftlintVersion:       The SwiftLint version defined in this configuration.
-    /// - parameter cachePath:              The location of the persisted cache to use whith this configuration.
+    /// - parameter cachePath:              The location of the persisted cache to use with this configuration.
     /// - parameter indentation:            The style to use when indenting Swift source code.
     /// - parameter customRulesIdentifiers: All custom rule identifiers defined in the configuration.
     /// - parameter allowZeroLintableFiles: Allow SwiftLint to exit successfully when passed ignored or unlintable files
@@ -172,7 +172,7 @@ public struct Configuration: Hashable {
     /// - parameter quiet:                  If false, a message will be logged to stderr when the configuration file is
     ///                                     loaded.
     /// - parameter enableAllRules:         Enable all available rules.
-    /// - parameter cachePath:              The location of the persisted cache to use whith this configuration.
+    /// - parameter cachePath:              The location of the persisted cache to use with this configuration.
     /// - parameter customRulesIdentifiers: All custom rule identifiers defined in the configuration.
     public init(path: String = Configuration.fileName, rootPath: String? = nil,
                 optional: Bool = true, quiet: Bool = false, enableAllRules: Bool = false,

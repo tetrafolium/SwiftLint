@@ -63,7 +63,7 @@ public struct LineLengthConfiguration: RuleConfiguration, Equatable {
     ///
     /// - parameter configuration: The untyped configuration value to apply.
     ///
-    /// - returns: True if the configuration was successfuly applied.
+    /// - returns: True if the configuration was successfully applied.
     private mutating func applyArray(configuration: Any) -> Bool {
         guard let configurationArray = [Int].array(of: configuration),
             !configurationArray.isEmpty else {
