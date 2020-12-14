@@ -608,7 +608,7 @@ This is the last release to support building with Swift 4.2.x.
   [Norio Nomura](https://github.com/norio-nomura)
 
 * Add option to configure how nested types should be separated in file names by
-  introducting `nested_type_separator` configuration for the `file_name` rule.  
+  introduction `nested_type_separator` configuration for the `file_name` rule.  
   [Frederick Pietschmann](https://github.com/fredpi)
   [#2717](https://github.com/realm/SwiftLint/issues/2717)
 
@@ -755,7 +755,7 @@ This is the last release to support building with Swift 4.2.x.
   [Frederick Pietschmann](https://github.com/fredpi)
   [#2670](https://github.com/realm/SwiftLint/issues/2670)
 
-* Fix issues in `explict_acl`, `redundant_set_access_control` and
+* Fix issues in `explicit_acl`, `redundant_set_access_control` and
   `explicit_top_level_acl` rules when using Swift 5.  
   [Marcelo Fabri](https://github.com/marcelofabri)
   [#2694](https://github.com/realm/SwiftLint/issues/2694)
@@ -2135,7 +2135,7 @@ The next release will require Swift 4.0 or higher to build.
 ##### Bug Fixes
 
 * Fix false positive on `force_unwrapping` rule when declaring
-  local variable with implicity unwrapped type.  
+  local variable with implicitly unwrapped type.  
   [Otávio Lima](https://github.com/otaviolima)
   [#1710](https://github.com/realm/SwiftLint/issues/1710)
 
